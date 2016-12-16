@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* Masonry
+* GreedCategory
+
 ## Installation
 
 NRCalendarView is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,6 +22,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "NRCalendarView"
 ```
+
+## Description
+
+A really handful calendar picker that you will love to use.
+
+## Screenshots
+
+![snap1](./snap1.png)
+![snap2](./snap2.png)
+![snap3](./snap3.png)
 
 ## Author
 
