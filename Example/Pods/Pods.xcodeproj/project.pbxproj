@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030B1D02391B865765020EF6D87B4C9E /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2F4FF991D1BB0AC44A16118D16F7F8 /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 044C5EFB8ECA0CB19A52C1665DE66B1F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7439A739BDDC1B00EFDE18EAF8EF722 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD6E8DDBF762BBCB9B0D01CB04EA119 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A539521C405F191CB01E74228D9172 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBE6B6692B505247C26F2DB5364F79 /* UITextView+Greed.m */; };
+		0AD30DA68DCF5218C8CB8455EB36CC34 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26D5DA2C829A6E3AD77192390EC259 /* UIImage+Greed.m */; };
+		0B12197CBD43F3B3730CB7135B7DF7DE /* Pods-NRCalendarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 767107122B9CDB548C684D81BCC3CC0C /* Pods-NRCalendarView_Tests-dummy.m */; };
+		0DF1D248EB226F56422E50CCAC5460EC /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 677AE69D4457000AE98FDB03235D05D3 /* NSObject+Greed.m */; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF30C10CE518999752F4BA677C236E3 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE67606C9DEAF1EC986F1CDEA1FC5AF /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B5C86829A83409E3F157CBF0A47405 /* GreedCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B892425CCCC0358C6B16A7B1ADFB4A /* GreedCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2688135E524CD9D59948A06A1B9D2BBD /* Pods-NRCalendarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A2378939C6381EB2BEB5AA189CBD6 /* Pods-NRCalendarView_Example-dummy.m */; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C123BA88C3D8E0D0B688B14CBADFB36 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE399422E917EBCE7D34860D4188E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8676AF06F6A23E152D9245956B112DDC /* UIKit.framework */; };
+		34964A517227136323442D2BDE8C4845 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD9D38405AAC3AF509CFDB065C37855 /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C97BB705B7258BC32776207A37933B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8676AF06F6A23E152D9245956B112DDC /* UIKit.framework */; };
+		42C45B7417E8611352C940964B763080 /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 38742D32A94878CB22962E5C59ABBAA0 /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431AB3997E8DAC807837A53419AB6840 /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA5D871B528FB5E28B17937B1EEB17B /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB330737C57368BAC8D01DA5BD8A5400 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB9E236B248453867738D722A794898 /* icon_arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB396D75D3CD72EDF070717C3045ACCC /* icon_arrow_left@2x.png */; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D53C493F9ED8634545FD2A1EB3BB7C58 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E019E75992CE98CF3570DF966A892F3 /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 954FB224B95B8039557412AE26629D0E /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50ED9C02059B74C84990A078F0453F2D /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 1918048FC52115DB385B4369A45DD07F /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52777E7ECC6F3C9799033E3F441588AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A06D1BE5C8603AA3778B21D6A554D15 /* CoreLocation.framework */; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C2C48F85ABD87B76D1120E7C82ACF /* MASCompositeConstraint.m */; };
+		556E131192962448EA39A9925477F640 /* icon_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB827567937D403884389EF235A9F6 /* icon_arrow_right@3x.png */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A42DDF841BD82642D818E9226BE7B4 /* MASConstraint.m */; };
+		5B66DF2B6CC767DAB9CB1DD216B663DB /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E9D2C08510C84757EE6B7A1663DE2 /* UILabel+Greed.m */; };
+		5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C849D0147450A19EE28698517EE6 /* Foundation.framework */; };
+		6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8676AF06F6A23E152D9245956B112DDC /* UIKit.framework */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 553BE47A7A511E29CC8DF75BB5058AE0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CE3AEE463A0121367093EB436FD3A3 /* icon_arrow_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F29324931B84337186E77FB814EE5 /* icon_arrow_left@3x.png */; };
+		6BE4D9F2DE4EF28B7BFC2C5EC4EE9A49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D715DFB0DAFC8A84F27427157F5401E /* CoreGraphics.framework */; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C187647D88D254261103F23127A5DB2C /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF190668DC054F5E28126FA74491C7B /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98754F571F9BE79001B3A0E4EB424F /* MASViewConstraint.m */; };
+		780DD6A2DB575C4BB2CF1AB193E04C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C849D0147450A19EE28698517EE6 /* Foundation.framework */; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8DCCBB485F96C353368B10D4587EC4 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853680B948877E92B0699E7D3C9AB0FE /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863F29386106543BA67586C309B8A30 /* GreedCategory-dummy.m */; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAB37BDB6F672256543BC83ECAB6DC5 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6274BDEC1E8E7E996DB0AA7588B172 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA179203664266DF277A7663BDF4628 /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E813DF5E1504123A9FD4FD9EC4A6CC14 /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7AE984CB59FFCBD60F28BC0B7935EE /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		997CA2CC98539196226276C6399FA5D9 /* icon_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = F782CA21C73E33E23D990A1A317A801B /* icon_arrow_left.png */; };
+		9B70034F589C855BD63540AE6C3F41F2 /* icon_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD21A078D4982C28CDB9E6900531972 /* icon_arrow_right@2x.png */; };
+		9BEB2D3EB66E2964238F328627E06E51 /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E8776D711BA0318AEC90CC7A29097D /* NSString+Greed.m */; };
+		9C8466712BF922B2CFF0DE6341002FDA /* icon_arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B125A16487D210C8141D2E7BE7E1C1 /* icon_arrow_right.png */; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E672CAA7786B2D3C89DA4FA74299C0D /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B799CB0202533FCE2D48FB18D95BD /* MASViewAttribute.m */; };
+		A7E2B1B174E2CBA289494AB5CE1BCC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C849D0147450A19EE28698517EE6 /* Foundation.framework */; };
+		B0243D67DFAF5C12495A30981531DFB5 /* NRCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D41B9EC2E212B977ECE2BB1560956 /* NRCalendarView-dummy.m */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3C1E2D8A6623E276AFE130CBE44C36 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E726FF32604806CF29569707B08987 /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = B930657FCAA90105F1D7AE96A6C82F25 /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86A1CE39DD8D716CF0020E1B36B21E5 /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F2D7903CC65A4F1430D601B9E96A43 /* UIView+Greed.m */; };
+		BA249E56D18C996E65FE339FC62F40F1 /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C18DDF2E7C6DD02537B62FB42AD939 /* UIWindow+Greed.m */; };
+		BDEF7E905890ED813B95656230FBAE8C /* NRCalendarItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DEA42E698413FDB1B285A12AF486D4 /* NRCalendarItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB29DBAF8EB4AE42345F82F042088EE /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C10738ECBE17FF8DF9C8C81F07E83FE2 /* Pods-NRCalendarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62520AADE6FB341AEACE35FD5B1FDBAC /* Pods-NRCalendarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A52F75645F7D8F9DFAF4D8A67B63F46E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BC2EF66C035A41AD2340561C727B3E /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFFDD4E4EE0B2542C4FB307E7BA4976D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C849D0147450A19EE28698517EE6 /* Foundation.framework */; };
+		D2242CC466050B49E5131C99BC0ECA5F /* NRCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC41041F84AC8D0639C083983C277061 /* NRCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BC235398957A6396E62927E1A9FB8D12 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5085726109D81759B54E0FDC7EB040 /* GreedCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333EE2DAC77D26B539BB301B7B3A074 /* GreedCategory.framework */; };
+		E4CD76D965DC2A3D6EA347819CA95FF3 /* NRCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = A782F76D9C25E2296020C093A9CAD5B8 /* NRCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6C1D8FBDC28B15FFE395040A271D /* NSArray+MASAdditions.m */; };
+		EB2094365B812ABFE39CE5E5392F1C36 /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEFF74E25454F5E1DBB67153882D791 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4FA0A0995B7828323CA95FA0DDC8C9 /* NRCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B50A40FBB5F4B84411186A1E73A0DB6 /* NRCalendarView.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 86284E9DB230A1899413E42C65CA5E61 /* View+MASAdditions.m */; };
+		F6B15C464D29A21368986AF26B507FFD /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0E028CCE757B883A753C96EB6D81F0 /* Masonry.framework */; };
+		F7B1DAAACD79569B59965FEAEC6D2388 /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = E21EB6A00391C77CD207DC55C358C1C8 /* NSDate+Greed.m */; };
+		F8CBE8E43534A2B4555FC0A5A39E40EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C849D0147450A19EE28698517EE6 /* Foundation.framework */; };
+		F93537970AD92456A8F446063D9F2D1A /* Pods-NRCalendarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F21235F342044A14AD42BF69FFFD7FF8 /* Pods-NRCalendarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB620507E7895AB60D536E457198BCDD /* NRCalendarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D0167A20AB59AABEF848D98721799 /* NRCalendarItemView.m */; };
+		FEE6D8C25E3222309D7695383996E6AB /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 92009CC2F6B518F936C6E4D25BF2AA86 /* CLLocation+Greed.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EC155F521F58004A547ECD61CC311ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		47792E5B4C1622101E39DD04BF605C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACE95D1C8F6913087329B9BF15F1058;
+			remoteInfo = GreedCategory;
+		};
+		78C66D3556AFD97627464BB6F1F392CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACE95D1C8F6913087329B9BF15F1058;
+			remoteInfo = GreedCategory;
+		};
+		7A780A2B5C20C0226FA221EE4084FD84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		C2251639F0C0D96A2610A38CD8F8766F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859DEBF836140C3BC8968DD12AA477B8;
+			remoteInfo = NRCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04279CDED3666B36C8A59A8A026C94F8 /* NRCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		044C5EFB8ECA0CB19A52C1665DE66B1F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		0795732701E09FEAA0B0E4099018E4B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A0D2D90328F22CA7C54D5C556936D3 /* Pods-NRCalendarView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRCalendarView_Example-resources.sh"; sourceTree = "<group>"; };
+		0C20B21AF979F183E63B379751FC447E /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
+		12A42DDF841BD82642D818E9226BE7B4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1918048FC52115DB385B4369A45DD07F /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Greed.h"; path = "GreedCategory/NSDate+Greed.h"; sourceTree = "<group>"; };
+		1B2A2378939C6381EB2BEB5AA189CBD6 /* Pods-NRCalendarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRCalendarView_Example-dummy.m"; sourceTree = "<group>"; };
+		1FA179203664266DF277A7663BDF4628 /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Greed.h"; path = "GreedCategory/NSObject+Greed.h"; sourceTree = "<group>"; };
+		2263FA918AFD6E5C5BA2199B68967DEA /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		28BC2EF66C035A41AD2340561C727B3E /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		2E95CA99C85061CDEED163AA5BB0DC09 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		2EDB827567937D403884389EF235A9F6 /* icon_arrow_right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_arrow_right@3x.png"; sourceTree = "<group>"; };
+		3546E99F855091D34698247217DE8BC8 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		38742D32A94878CB22962E5C59ABBAA0 /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Greed.h"; path = "GreedCategory/CLLocation+Greed.h"; sourceTree = "<group>"; };
+		39B892425CCCC0358C6B16A7B1ADFB4A /* GreedCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-umbrella.h"; sourceTree = "<group>"; };
+		3A1F6C1D8FBDC28B15FFE395040A271D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		3B50A40FBB5F4B84411186A1E73A0DB6 /* NRCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NRCalendarView.m; sourceTree = "<group>"; };
+		3E6B799CB0202533FCE2D48FB18D95BD /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		44D901923832959ACFF240DE60E57E9A /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
+		4547C849D0147450A19EE28698517EE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48C18DDF2E7C6DD02537B62FB42AD939 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+Greed.m"; path = "GreedCategory/UIWindow+Greed.m"; sourceTree = "<group>"; };
+		4A1F29324931B84337186E77FB814EE5 /* icon_arrow_left@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_arrow_left@3x.png"; sourceTree = "<group>"; };
+		4AAB37BDB6F672256543BC83ECAB6DC5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		4B2F4FF991D1BB0AC44A16118D16F7F8 /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Greed.h"; path = "GreedCategory/UIImage+Greed.h"; sourceTree = "<group>"; };
+		4BE67606C9DEAF1EC986F1CDEA1FC5AF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		4BF190668DC054F5E28126FA74491C7B /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4F068D558BD379320E5D1CA7B2121078 /* Pods-NRCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54B125A16487D210C8141D2E7BE7E1C1 /* icon_arrow_right.png */ = {isa = PBXFileReference; includeInIndex = 1; path = icon_arrow_right.png; sourceTree = "<group>"; };
+		553BE47A7A511E29CC8DF75BB5058AE0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		55F073F586D56D21DA978A4E01FB801A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5863F29386106543BA67586C309B8A30 /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
+		5A3C1E2D8A6623E276AFE130CBE44C36 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5BB2BD7EC91547DD749878B85268EB95 /* Pods-NRCalendarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRCalendarView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D314C101D16042E06D241590DA39DA1 /* GreedCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GreedCategory.modulemap; sourceTree = "<group>"; };
+		5D715DFB0DAFC8A84F27427157F5401E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5FB29DBAF8EB4AE42345F82F042088EE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		62520AADE6FB341AEACE35FD5B1FDBAC /* Pods-NRCalendarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRCalendarView_Example-umbrella.h"; sourceTree = "<group>"; };
+		6333EE2DAC77D26B539BB301B7B3A074 /* GreedCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GreedCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645B5212A6A3EC0C4B63A4A6BD101ED6 /* Pods_NRCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRCalendarView_Example.framework; path = "Pods-NRCalendarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB818E5FCC4B7825A524C14BB633C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6712C7BF62EFEA053713E615910286AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677AE69D4457000AE98FDB03235D05D3 /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Greed.m"; path = "GreedCategory/NSObject+Greed.m"; sourceTree = "<group>"; };
+		6ABFAB41611A3F899B175615C1F4F386 /* Pods-NRCalendarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRCalendarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BF30C10CE518999752F4BA677C236E3 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6C583F8B0CEAC525235DB062E48992A3 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E672CAA7786B2D3C89DA4FA74299C0D /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		70792FE93356B8EA55056E0A2DBC6042 /* Pods-NRCalendarView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRCalendarView_Tests-resources.sh"; sourceTree = "<group>"; };
+		71B9D074EB5D17006B79F1CA686BA210 /* NRCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRCalendarView.framework; path = NRCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767107122B9CDB548C684D81BCC3CC0C /* Pods-NRCalendarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRCalendarView_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BD6E8DDBF762BBCB9B0D01CB04EA119 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		811E9D2C08510C84757EE6B7A1663DE2 /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Greed.m"; path = "GreedCategory/UILabel+Greed.m"; sourceTree = "<group>"; };
+		820D41B9EC2E212B977ECE2BB1560956 /* NRCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRCalendarView-dummy.m"; sourceTree = "<group>"; };
+		83440D15D2B777CE1E72BFD91F35C1DD /* Pods-NRCalendarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRCalendarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		86284E9DB230A1899413E42C65CA5E61 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		8676AF06F6A23E152D9245956B112DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8EA5D871B528FB5E28B17937B1EEB17B /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Greed.h"; path = "GreedCategory/NSString+Greed.h"; sourceTree = "<group>"; };
+		92009CC2F6B518F936C6E4D25BF2AA86 /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+Greed.m"; path = "GreedCategory/CLLocation+Greed.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954FB224B95B8039557412AE26629D0E /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Greed.h"; path = "GreedCategory/UILabel+Greed.h"; sourceTree = "<group>"; };
+		9A06D1BE5C8603AA3778B21D6A554D15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		9A589C7C2EEE16BEA720943D126D591D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5C2C48F85ABD87B76D1120E7C82ACF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9C123BA88C3D8E0D0B688B14CBADFB36 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		9E8DCCBB485F96C353368B10D4587EC4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A52F75645F7D8F9DFAF4D8A67B63F46E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		A5E3E81755AD3BA93974102D0E27EC90 /* Pods_NRCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRCalendarView_Tests.framework; path = "Pods-NRCalendarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A714F34BBEC05466C1977657C568E06B /* NRCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NRCalendarView.modulemap; sourceTree = "<group>"; };
+		A782F76D9C25E2296020C093A9CAD5B8 /* NRCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NRCalendarView.h; sourceTree = "<group>"; };
+		AAD9D38405AAC3AF509CFDB065C37855 /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+Greed.h"; path = "GreedCategory/UIWindow+Greed.h"; sourceTree = "<group>"; };
+		AB330737C57368BAC8D01DA5BD8A5400 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		B1ABF80CA174BA11D936307B20D02787 /* Pods-NRCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6DEA42E698413FDB1B285A12AF486D4 /* NRCalendarItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NRCalendarItemView.h; sourceTree = "<group>"; };
+		B7E8776D711BA0318AEC90CC7A29097D /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Greed.m"; path = "GreedCategory/NSString+Greed.m"; sourceTree = "<group>"; };
+		B930657FCAA90105F1D7AE96A6C82F25 /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Greed.h"; path = "GreedCategory/UITextView+Greed.h"; sourceTree = "<group>"; };
+		BC235398957A6396E62927E1A9FB8D12 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BC41041F84AC8D0639C083983C277061 /* NRCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		BC7AE984CB59FFCBD60F28BC0B7935EE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BC98754F571F9BE79001B3A0E4EB424F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		BCECCBD973AEA95E43AFFAEA36299D27 /* Pods-NRCalendarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NRCalendarView_Tests.modulemap"; sourceTree = "<group>"; };
+		BCEFF74E25454F5E1DBB67153882D791 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Greed.h"; path = "GreedCategory/UIView+Greed.h"; sourceTree = "<group>"; };
+		BFD21A078D4982C28CDB9E6900531972 /* icon_arrow_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_arrow_right@2x.png"; sourceTree = "<group>"; };
+		C187647D88D254261103F23127A5DB2C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C3532ECAFC0FA52453E47D8E451F9D24 /* Pods-NRCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C8639F0A2BD21F7A92F11B1E75484B0F /* Pods-NRCalendarView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRCalendarView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D53C493F9ED8634545FD2A1EB3BB7C58 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D6C8E7C338553929ECD6C76AF8632F5F /* Pods-NRCalendarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRCalendarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD71D4912244F0A13E0A76D267E421C6 /* Pods-NRCalendarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRCalendarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDB025B68B607845698935FC231926B2 /* GreedCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GreedCategory.framework; path = GreedCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21EB6A00391C77CD207DC55C358C1C8 /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Greed.m"; path = "GreedCategory/NSDate+Greed.m"; sourceTree = "<group>"; };
+		E27D0167A20AB59AABEF848D98721799 /* NRCalendarItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NRCalendarItemView.m; sourceTree = "<group>"; };
+		E39CC4667DAC9185B5B4918D8D9512F5 /* Pods-NRCalendarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRCalendarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E64364DA0F5CF1E54D4A74E64865D16C /* Pods-NRCalendarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NRCalendarView_Example.modulemap"; sourceTree = "<group>"; };
+		E6F2D7903CC65A4F1430D601B9E96A43 /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Greed.m"; path = "GreedCategory/UIView+Greed.m"; sourceTree = "<group>"; };
+		E813DF5E1504123A9FD4FD9EC4A6CC14 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EB396D75D3CD72EDF070717C3045ACCC /* icon_arrow_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_arrow_left@2x.png"; sourceTree = "<group>"; };
+		ED26D5DA2C829A6E3AD77192390EC259 /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Greed.m"; path = "GreedCategory/UIImage+Greed.m"; sourceTree = "<group>"; };
+		EFBBE6B6692B505247C26F2DB5364F79 /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Greed.m"; path = "GreedCategory/UITextView+Greed.m"; sourceTree = "<group>"; };
+		F21235F342044A14AD42BF69FFFD7FF8 /* Pods-NRCalendarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRCalendarView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F7439A739BDDC1B00EFDE18EAF8EF722 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		F782CA21C73E33E23D990A1A317A801B /* icon_arrow_left.png */ = {isa = PBXFileReference; includeInIndex = 1; path = icon_arrow_left.png; sourceTree = "<group>"; };
+		FD0E028CCE757B883A753C96EB6D81F0 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD933E0E0FD003A58D800882631D548 /* NRCalendarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRCalendarView.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F650E26A66B742880AE5DC61C7D6D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE4D9F2DE4EF28B7BFC2C5EC4EE9A49 /* CoreGraphics.framework in Frameworks */,
+				52777E7ECC6F3C9799033E3F441588AA /* CoreLocation.framework in Frameworks */,
+				780DD6A2DB575C4BB2CF1AB193E04C9A /* Foundation.framework in Frameworks */,
+				2FE399422E917EBCE7D34860D4188E60 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3176E4A587A11E90361017EECB2EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CBE8E43534A2B4555FC0A5A39E40EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF067353EF13F1D52388DA96977306E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFDD4E4EE0B2542C4FB307E7BA4976D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD00CA7EF5F9F8715CFD20A72AD3D608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E2B1B174E2CBA289494AB5CE1BCC91 /* Foundation.framework in Frameworks */,
+				DC5085726109D81759B54E0FDC7EB040 /* GreedCategory.framework in Frameworks */,
+				F6B15C464D29A21368986AF26B507FFD /* Masonry.framework in Frameworks */,
+				34C97BB705B7258BC32776207A37933B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */,
+				6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12157B0C5EFEFA04023CB3EEEF6D2265 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BC7AE984CB59FFCBD60F28BC0B7935EE /* MASCompositeConstraint.h */,
+				9A5C2C48F85ABD87B76D1120E7C82ACF /* MASCompositeConstraint.m */,
+				A52F75645F7D8F9DFAF4D8A67B63F46E /* MASConstraint.h */,
+				12A42DDF841BD82642D818E9226BE7B4 /* MASConstraint.m */,
+				D53C493F9ED8634545FD2A1EB3BB7C58 /* MASConstraint+Private.h */,
+				4AAB37BDB6F672256543BC83ECAB6DC5 /* MASConstraintMaker.h */,
+				4BF190668DC054F5E28126FA74491C7B /* MASConstraintMaker.m */,
+				9E8DCCBB485F96C353368B10D4587EC4 /* MASLayoutConstraint.h */,
+				C187647D88D254261103F23127A5DB2C /* MASLayoutConstraint.m */,
+				28BC2EF66C035A41AD2340561C727B3E /* Masonry.h */,
+				044C5EFB8ECA0CB19A52C1665DE66B1F /* MASUtilities.h */,
+				553BE47A7A511E29CC8DF75BB5058AE0 /* MASViewAttribute.h */,
+				3E6B799CB0202533FCE2D48FB18D95BD /* MASViewAttribute.m */,
+				7BD6E8DDBF762BBCB9B0D01CB04EA119 /* MASViewConstraint.h */,
+				BC98754F571F9BE79001B3A0E4EB424F /* MASViewConstraint.m */,
+				5FB29DBAF8EB4AE42345F82F042088EE /* NSArray+MASAdditions.h */,
+				3A1F6C1D8FBDC28B15FFE395040A271D /* NSArray+MASAdditions.m */,
+				BC235398957A6396E62927E1A9FB8D12 /* NSArray+MASShorthandAdditions.h */,
+				4BE67606C9DEAF1EC986F1CDEA1FC5AF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6BF30C10CE518999752F4BA677C236E3 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F7439A739BDDC1B00EFDE18EAF8EF722 /* View+MASAdditions.h */,
+				86284E9DB230A1899413E42C65CA5E61 /* View+MASAdditions.m */,
+				5A3C1E2D8A6623E276AFE130CBE44C36 /* View+MASShorthandAdditions.h */,
+				9C123BA88C3D8E0D0B688B14CBADFB36 /* ViewController+MASAdditions.h */,
+				E813DF5E1504123A9FD4FD9EC4A6CC14 /* ViewController+MASAdditions.m */,
+				4DD2F295E9C9FAAEF49E2589FC204643 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		20DC89AE9832AC5E97D0A20A3743F611 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B20A6E83B4FD94F69F2C3C71992DD78 /* NRCalendarView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B3CD477AEA8AD619395592267F86DFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6DEA42E698413FDB1B285A12AF486D4 /* NRCalendarItemView.h */,
+				E27D0167A20AB59AABEF848D98721799 /* NRCalendarItemView.m */,
+				A782F76D9C25E2296020C093A9CAD5B8 /* NRCalendarView.h */,
+				3B50A40FBB5F4B84411186A1E73A0DB6 /* NRCalendarView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34A2FE2D9E868D7246A2CE0EDFAE256F /* NRCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				CADBFA16136B6D07BD7F9C382F719A0B /* NRCalendarView */,
+				20DC89AE9832AC5E97D0A20A3743F611 /* Resources */,
+				D910E96C004BB9A3FF07C2EACB6144B4 /* Support Files */,
+			);
+			name = NRCalendarView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B20A6E83B4FD94F69F2C3C71992DD78 /* NRCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B86F6DFAD5F801AC746A3199571FF2 /* Assets */,
+			);
+			name = NRCalendarView;
+			path = NRCalendarView;
+			sourceTree = "<group>";
+		};
+		429C171E5ED6A33E408100329F22875B /* GreedCategory */ = {
+			isa = PBXGroup;
+			children = (
+				38742D32A94878CB22962E5C59ABBAA0 /* CLLocation+Greed.h */,
+				92009CC2F6B518F936C6E4D25BF2AA86 /* CLLocation+Greed.m */,
+				1918048FC52115DB385B4369A45DD07F /* NSDate+Greed.h */,
+				E21EB6A00391C77CD207DC55C358C1C8 /* NSDate+Greed.m */,
+				1FA179203664266DF277A7663BDF4628 /* NSObject+Greed.h */,
+				677AE69D4457000AE98FDB03235D05D3 /* NSObject+Greed.m */,
+				8EA5D871B528FB5E28B17937B1EEB17B /* NSString+Greed.h */,
+				B7E8776D711BA0318AEC90CC7A29097D /* NSString+Greed.m */,
+				4B2F4FF991D1BB0AC44A16118D16F7F8 /* UIImage+Greed.h */,
+				ED26D5DA2C829A6E3AD77192390EC259 /* UIImage+Greed.m */,
+				954FB224B95B8039557412AE26629D0E /* UILabel+Greed.h */,
+				811E9D2C08510C84757EE6B7A1663DE2 /* UILabel+Greed.m */,
+				B930657FCAA90105F1D7AE96A6C82F25 /* UITextView+Greed.h */,
+				EFBBE6B6692B505247C26F2DB5364F79 /* UITextView+Greed.m */,
+				BCEFF74E25454F5E1DBB67153882D791 /* UIView+Greed.h */,
+				E6F2D7903CC65A4F1430D601B9E96A43 /* UIView+Greed.m */,
+				AAD9D38405AAC3AF509CFDB065C37855 /* UIWindow+Greed.h */,
+				48C18DDF2E7C6DD02537B62FB42AD939 /* UIWindow+Greed.m */,
+				71AFF410EFA075C4389B2DEC29EC7303 /* Support Files */,
+			);
+			name = GreedCategory;
+			path = GreedCategory;
+			sourceTree = "<group>";
+		};
+		4DD2F295E9C9FAAEF49E2589FC204643 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F073F586D56D21DA978A4E01FB801A /* Info.plist */,
+				2E95CA99C85061CDEED163AA5BB0DC09 /* Masonry.modulemap */,
+				2263FA918AFD6E5C5BA2199B68967DEA /* Masonry.xcconfig */,
+				6E672CAA7786B2D3C89DA4FA74299C0D /* Masonry-dummy.m */,
+				3546E99F855091D34698247217DE8BC8 /* Masonry-prefix.pch */,
+				AB330737C57368BAC8D01DA5BD8A5400 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		4E72DE74264AF8A6BF56012DAD426608 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D715DFB0DAFC8A84F27427157F5401E /* CoreGraphics.framework */,
+				9A06D1BE5C8603AA3778B21D6A554D15 /* CoreLocation.framework */,
+				4547C849D0147450A19EE28698517EE6 /* Foundation.framework */,
+				8676AF06F6A23E152D9245956B112DDC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5127F1624A1113D30C70A54B5C86E73B /* Pods-NRCalendarView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6712C7BF62EFEA053713E615910286AA /* Info.plist */,
+				BCECCBD973AEA95E43AFFAEA36299D27 /* Pods-NRCalendarView_Tests.modulemap */,
+				6ABFAB41611A3F899B175615C1F4F386 /* Pods-NRCalendarView_Tests-acknowledgements.markdown */,
+				D6C8E7C338553929ECD6C76AF8632F5F /* Pods-NRCalendarView_Tests-acknowledgements.plist */,
+				767107122B9CDB548C684D81BCC3CC0C /* Pods-NRCalendarView_Tests-dummy.m */,
+				C8639F0A2BD21F7A92F11B1E75484B0F /* Pods-NRCalendarView_Tests-frameworks.sh */,
+				70792FE93356B8EA55056E0A2DBC6042 /* Pods-NRCalendarView_Tests-resources.sh */,
+				F21235F342044A14AD42BF69FFFD7FF8 /* Pods-NRCalendarView_Tests-umbrella.h */,
+				83440D15D2B777CE1E72BFD91F35C1DD /* Pods-NRCalendarView_Tests.debug.xcconfig */,
+				C3532ECAFC0FA52453E47D8E451F9D24 /* Pods-NRCalendarView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NRCalendarView_Tests";
+			path = "Target Support Files/Pods-NRCalendarView_Tests";
+			sourceTree = "<group>";
+		};
+		71AFF410EFA075C4389B2DEC29EC7303 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D314C101D16042E06D241590DA39DA1 /* GreedCategory.modulemap */,
+				44D901923832959ACFF240DE60E57E9A /* GreedCategory.xcconfig */,
+				5863F29386106543BA67586C309B8A30 /* GreedCategory-dummy.m */,
+				0C20B21AF979F183E63B379751FC447E /* GreedCategory-prefix.pch */,
+				39B892425CCCC0358C6B16A7B1ADFB4A /* GreedCategory-umbrella.h */,
+				66CB818E5FCC4B7825A524C14BB633C2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GreedCategory";
+			sourceTree = "<group>";
+		};
+		7391923958B2DECB39B5BFF0D711C7FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				429C171E5ED6A33E408100329F22875B /* GreedCategory */,
+				12157B0C5EFEFA04023CB3EEEF6D2265 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AC1438A24275EA4B1AA2690176D8CE80 /* Development Pods */,
+				B9FC433249F689F6886527634E605F12 /* Frameworks */,
+				7391923958B2DECB39B5BFF0D711C7FE /* Pods */,
+				9DE3CAE3FE2113DD3A6233C41DDEA987 /* Products */,
+				F1D88E06A6D286F48D250E9F0C9547D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96499A11C7D53D48A4937C0BF56AE1D7 /* Pods-NRCalendarView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0795732701E09FEAA0B0E4099018E4B1 /* Info.plist */,
+				E64364DA0F5CF1E54D4A74E64865D16C /* Pods-NRCalendarView_Example.modulemap */,
+				DD71D4912244F0A13E0A76D267E421C6 /* Pods-NRCalendarView_Example-acknowledgements.markdown */,
+				E39CC4667DAC9185B5B4918D8D9512F5 /* Pods-NRCalendarView_Example-acknowledgements.plist */,
+				1B2A2378939C6381EB2BEB5AA189CBD6 /* Pods-NRCalendarView_Example-dummy.m */,
+				5BB2BD7EC91547DD749878B85268EB95 /* Pods-NRCalendarView_Example-frameworks.sh */,
+				08A0D2D90328F22CA7C54D5C556936D3 /* Pods-NRCalendarView_Example-resources.sh */,
+				62520AADE6FB341AEACE35FD5B1FDBAC /* Pods-NRCalendarView_Example-umbrella.h */,
+				4F068D558BD379320E5D1CA7B2121078 /* Pods-NRCalendarView_Example.debug.xcconfig */,
+				B1ABF80CA174BA11D936307B20D02787 /* Pods-NRCalendarView_Example.release.xcconfig */,
+			);
+			name = "Pods-NRCalendarView_Example";
+			path = "Target Support Files/Pods-NRCalendarView_Example";
+			sourceTree = "<group>";
+		};
+		9DE3CAE3FE2113DD3A6233C41DDEA987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB025B68B607845698935FC231926B2 /* GreedCategory.framework */,
+				6C583F8B0CEAC525235DB062E48992A3 /* Masonry.framework */,
+				71B9D074EB5D17006B79F1CA686BA210 /* NRCalendarView.framework */,
+				645B5212A6A3EC0C4B63A4A6BD101ED6 /* Pods_NRCalendarView_Example.framework */,
+				A5E3E81755AD3BA93974102D0E27EC90 /* Pods_NRCalendarView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1438A24275EA4B1AA2690176D8CE80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A2FE2D9E868D7246A2CE0EDFAE256F /* NRCalendarView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9FC433249F689F6886527634E605F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6333EE2DAC77D26B539BB301B7B3A074 /* GreedCategory.framework */,
+				FD0E028CCE757B883A753C96EB6D81F0 /* Masonry.framework */,
+				4E72DE74264AF8A6BF56012DAD426608 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADBFA16136B6D07BD7F9C382F719A0B /* NRCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2B3CD477AEA8AD619395592267F86DFE /* Classes */,
+			);
+			name = NRCalendarView;
+			path = NRCalendarView;
+			sourceTree = "<group>";
+		};
+		D910E96C004BB9A3FF07C2EACB6144B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A589C7C2EEE16BEA720943D126D591D /* Info.plist */,
+				A714F34BBEC05466C1977657C568E06B /* NRCalendarView.modulemap */,
+				FDD933E0E0FD003A58D800882631D548 /* NRCalendarView.xcconfig */,
+				820D41B9EC2E212B977ECE2BB1560956 /* NRCalendarView-dummy.m */,
+				04279CDED3666B36C8A59A8A026C94F8 /* NRCalendarView-prefix.pch */,
+				BC41041F84AC8D0639C083983C277061 /* NRCalendarView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRCalendarView";
+			sourceTree = "<group>";
+		};
+		D9B86F6DFAD5F801AC746A3199571FF2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F782CA21C73E33E23D990A1A317A801B /* icon_arrow_left.png */,
+				EB396D75D3CD72EDF070717C3045ACCC /* icon_arrow_left@2x.png */,
+				4A1F29324931B84337186E77FB814EE5 /* icon_arrow_left@3x.png */,
+				54B125A16487D210C8141D2E7BE7E1C1 /* icon_arrow_right.png */,
+				BFD21A078D4982C28CDB9E6900531972 /* icon_arrow_right@2x.png */,
+				2EDB827567937D403884389EF235A9F6 /* icon_arrow_right@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F1D88E06A6D286F48D250E9F0C9547D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96499A11C7D53D48A4937C0BF56AE1D7 /* Pods-NRCalendarView_Example */,
+				5127F1624A1113D30C70A54B5C86E73B /* Pods-NRCalendarView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35642C66E6B17B8D339EB0C01A70946C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C45B7417E8611352C940964B763080 /* CLLocation+Greed.h in Headers */,
+				16B5C86829A83409E3F157CBF0A47405 /* GreedCategory-umbrella.h in Headers */,
+				50ED9C02059B74C84990A078F0453F2D /* NSDate+Greed.h in Headers */,
+				8A6274BDEC1E8E7E996DB0AA7588B172 /* NSObject+Greed.h in Headers */,
+				431AB3997E8DAC807837A53419AB6840 /* NSString+Greed.h in Headers */,
+				030B1D02391B865765020EF6D87B4C9E /* UIImage+Greed.h in Headers */,
+				4E019E75992CE98CF3570DF966A892F3 /* UILabel+Greed.h in Headers */,
+				B4E726FF32604806CF29569707B08987 /* UITextView+Greed.h in Headers */,
+				EB2094365B812ABFE39CE5E5392F1C36 /* UIView+Greed.h in Headers */,
+				34964A517227136323442D2BDE8C4845 /* UIWindow+Greed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F19FE3F42D7492FF75553B296C72CCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEF7E905890ED813B95656230FBAE8C /* NRCalendarItemView.h in Headers */,
+				D2242CC466050B49E5131C99BC0ECA5F /* NRCalendarView-umbrella.h in Headers */,
+				E4CD76D965DC2A3D6EA347819CA95FF3 /* NRCalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E921A214841F1D214D6752BFF786DB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93537970AD92456A8F446063D9F2D1A /* Pods-NRCalendarView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0B90B37BC4B127F1B26D678540D4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10738ECBE17FF8DF9C8C81F07E83FE2 /* Pods-NRCalendarView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DFBD2EC46E6211EB64A48D3E06249F3 /* Pods-NRCalendarView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1F7760A8F76ADCF5E483078CD29A19 /* Build configuration list for PBXNativeTarget "Pods-NRCalendarView_Tests" */;
+			buildPhases = (
+				84DDAF29FBE712EC0668395E27C0B18F /* Sources */,
+				AF067353EF13F1D52388DA96977306E0 /* Frameworks */,
+				9E921A214841F1D214D6752BFF786DB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NRCalendarView_Tests";
+			productName = "Pods-NRCalendarView_Tests";
+			productReference = A5E3E81755AD3BA93974102D0E27EC90 /* Pods_NRCalendarView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		859DEBF836140C3BC8968DD12AA477B8 /* NRCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B4AFE7F3832D24AD9BC05F0C598734 /* Build configuration list for PBXNativeTarget "NRCalendarView" */;
+			buildPhases = (
+				9645242079E059D7AE206CE9E5700419 /* Sources */,
+				CD00CA7EF5F9F8715CFD20A72AD3D608 /* Frameworks */,
+				5F19FE3F42D7492FF75553B296C72CCF /* Headers */,
+				151037738EC5CAE21FD618BE03200E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0880DB5600C902993C12608F63200777 /* PBXTargetDependency */,
+				EC241E62975270D4F71FF3C6BB2BBFB9 /* PBXTargetDependency */,
+			);
+			name = NRCalendarView;
+			productName = NRCalendarView;
+			productReference = 71B9D074EB5D17006B79F1CA686BA210 /* NRCalendarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 6C583F8B0CEAC525235DB062E48992A3 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DACE95D1C8F6913087329B9BF15F1058 /* GreedCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F1E890E9109E3AF5D0534BF3ABD42F /* Build configuration list for PBXNativeTarget "GreedCategory" */;
+			buildPhases = (
+				3F10F39DCA50B6D3372DCB626FF11A19 /* Sources */,
+				3F650E26A66B742880AE5DC61C7D6D20 /* Frameworks */,
+				35642C66E6B17B8D339EB0C01A70946C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreedCategory;
+			productName = GreedCategory;
+			productReference = DDB025B68B607845698935FC231926B2 /* GreedCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA4B6A6A7FD5F218643FE58E1C738D79 /* Pods-NRCalendarView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05C30D18819781E8BC5B227B2E7FF11 /* Build configuration list for PBXNativeTarget "Pods-NRCalendarView_Example" */;
+			buildPhases = (
+				5B3356E0F243D9FCD0D50DC61A68203B /* Sources */,
+				4C3176E4A587A11E90361017EECB2EB5 /* Frameworks */,
+				EDC0B90B37BC4B127F1B26D678540D4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAC58472E8D125856F337F11817AF76 /* PBXTargetDependency */,
+				D97C1D5A7D4C214E959FAF1470FA9487 /* PBXTargetDependency */,
+				020282C2DC73CF1FD168242292C4BAE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NRCalendarView_Example";
+			productName = "Pods-NRCalendarView_Example";
+			productReference = 645B5212A6A3EC0C4B63A4A6BD101ED6 /* Pods_NRCalendarView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9DE3CAE3FE2113DD3A6233C41DDEA987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACE95D1C8F6913087329B9BF15F1058 /* GreedCategory */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				859DEBF836140C3BC8968DD12AA477B8 /* NRCalendarView */,
+				EA4B6A6A7FD5F218643FE58E1C738D79 /* Pods-NRCalendarView_Example */,
+				5DFBD2EC46E6211EB64A48D3E06249F3 /* Pods-NRCalendarView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151037738EC5CAE21FD618BE03200E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997CA2CC98539196226276C6399FA5D9 /* icon_arrow_left.png in Resources */,
+				4CB9E236B248453867738D722A794898 /* icon_arrow_left@2x.png in Resources */,
+				64CE3AEE463A0121367093EB436FD3A3 /* icon_arrow_left@3x.png in Resources */,
+				9C8466712BF922B2CFF0DE6341002FDA /* icon_arrow_right.png in Resources */,
+				9B70034F589C855BD63540AE6C3F41F2 /* icon_arrow_right@2x.png in Resources */,
+				556E131192962448EA39A9925477F640 /* icon_arrow_right@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F10F39DCA50B6D3372DCB626FF11A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE6D8C25E3222309D7695383996E6AB /* CLLocation+Greed.m in Sources */,
+				853680B948877E92B0699E7D3C9AB0FE /* GreedCategory-dummy.m in Sources */,
+				F7B1DAAACD79569B59965FEAEC6D2388 /* NSDate+Greed.m in Sources */,
+				0DF1D248EB226F56422E50CCAC5460EC /* NSObject+Greed.m in Sources */,
+				9BEB2D3EB66E2964238F328627E06E51 /* NSString+Greed.m in Sources */,
+				0AD30DA68DCF5218C8CB8455EB36CC34 /* UIImage+Greed.m in Sources */,
+				5B66DF2B6CC767DAB9CB1DD216B663DB /* UILabel+Greed.m in Sources */,
+				09A539521C405F191CB01E74228D9172 /* UITextView+Greed.m in Sources */,
+				B86A1CE39DD8D716CF0020E1B36B21E5 /* UIView+Greed.m in Sources */,
+				BA249E56D18C996E65FE339FC62F40F1 /* UIWindow+Greed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3356E0F243D9FCD0D50DC61A68203B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2688135E524CD9D59948A06A1B9D2BBD /* Pods-NRCalendarView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DDAF29FBE712EC0668395E27C0B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B12197CBD43F3B3730CB7135B7DF7DE /* Pods-NRCalendarView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9645242079E059D7AE206CE9E5700419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB620507E7895AB60D536E457198BCDD /* NRCalendarItemView.m in Sources */,
+				B0243D67DFAF5C12495A30981531DFB5 /* NRCalendarView-dummy.m in Sources */,
+				ED4FA0A0995B7828323CA95FA0DDC8C9 /* NRCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020282C2DC73CF1FD168242292C4BAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NRCalendarView;
+			target = 859DEBF836140C3BC8968DD12AA477B8 /* NRCalendarView */;
+			targetProxy = C2251639F0C0D96A2610A38CD8F8766F /* PBXContainerItemProxy */;
+		};
+		0880DB5600C902993C12608F63200777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedCategory;
+			target = DACE95D1C8F6913087329B9BF15F1058 /* GreedCategory */;
+			targetProxy = 47792E5B4C1622101E39DD04BF605C52 /* PBXContainerItemProxy */;
+		};
+		ADAC58472E8D125856F337F11817AF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GreedCategory;
+			target = DACE95D1C8F6913087329B9BF15F1058 /* GreedCategory */;
+			targetProxy = 78C66D3556AFD97627464BB6F1F392CC /* PBXContainerItemProxy */;
+		};
+		D97C1D5A7D4C214E959FAF1470FA9487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 3EC155F521F58004A547ECD61CC311ED /* PBXContainerItemProxy */;
+		};
+		EC241E62975270D4F71FF3C6BB2BBFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 7A780A2B5C20C0226FA221EE4084FD84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65FF42F4C457352445B4616ADB799EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F068D558BD379320E5D1CA7B2121078 /* Pods-NRCalendarView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRCalendarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRCalendarView_Example/Pods-NRCalendarView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRCalendarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67DD93B205889A538F0103725510E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D901923832959ACFF240DE60E57E9A /* GreedCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GreedCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GreedCategory/GreedCategory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GreedCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F4A77C14825595EFCF2A818122B473B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D901923832959ACFF240DE60E57E9A /* GreedCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GreedCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GreedCategory/GreedCategory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GreedCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CC747A8B09F50D8EA3191B7C5EDD18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2263FA918AFD6E5C5BA2199B68967DEA /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8086F734F5753ED31728C9FBC1BFCAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3532ECAFC0FA52453E47D8E451F9D24 /* Pods-NRCalendarView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRCalendarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRCalendarView_Tests/Pods-NRCalendarView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRCalendarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BBBD1EB548AF822204DCD8119879817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1ABF80CA174BA11D936307B20D02787 /* Pods-NRCalendarView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRCalendarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRCalendarView_Example/Pods-NRCalendarView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRCalendarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B152725AECECE08C02177AA4209C08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83440D15D2B777CE1E72BFD91F35C1DD /* Pods-NRCalendarView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NRCalendarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRCalendarView_Tests/Pods-NRCalendarView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NRCalendarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A310EC6BC982615287666D755D3270CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD933E0E0FD003A58D800882631D548 /* NRCalendarView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NRCalendarView/NRCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRCalendarView/NRCalendarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDBED416AF7EF4E0711DC078BAC8DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2263FA918AFD6E5C5BA2199B68967DEA /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F10E9876BFE405F6AF20C1EB5EE4BC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD933E0E0FD003A58D800882631D548 /* NRCalendarView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NRCalendarView/NRCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRCalendarView/NRCalendarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NRCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBED416AF7EF4E0711DC078BAC8DC3E /* Debug */,
+				7CC747A8B09F50D8EA3191B7C5EDD18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F1E890E9109E3AF5D0534BF3ABD42F /* Build configuration list for PBXNativeTarget "GreedCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DD93B205889A538F0103725510E7B6 /* Debug */,
+				6F4A77C14825595EFCF2A818122B473B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1F7760A8F76ADCF5E483078CD29A19 /* Build configuration list for PBXNativeTarget "Pods-NRCalendarView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B152725AECECE08C02177AA4209C08F /* Debug */,
+				8086F734F5753ED31728C9FBC1BFCAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B4AFE7F3832D24AD9BC05F0C598734 /* Build configuration list for PBXNativeTarget "NRCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A310EC6BC982615287666D755D3270CA /* Debug */,
+				F10E9876BFE405F6AF20C1EB5EE4BC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05C30D18819781E8BC5B227B2E7FF11 /* Build configuration list for PBXNativeTarget "Pods-NRCalendarView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF42F4C457352445B4616ADB799EFB /* Debug */,
+				8BBBD1EB548AF822204DCD8119879817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

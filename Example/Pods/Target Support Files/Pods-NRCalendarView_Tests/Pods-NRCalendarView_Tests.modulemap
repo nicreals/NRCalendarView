@@ -1,0 +1,6 @@
+framework module Pods_NRCalendarView_Tests {
+  umbrella header "Pods-NRCalendarView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

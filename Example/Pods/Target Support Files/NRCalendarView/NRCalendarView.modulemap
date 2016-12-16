@@ -1,0 +1,6 @@
+framework module NRCalendarView {
+  umbrella header "NRCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

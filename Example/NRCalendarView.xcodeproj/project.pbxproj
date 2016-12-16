@@ -38,9 +38,9 @@
 /* Begin PBXFileReference section */
 		255A5301498A1559E451CF03 /* Pods_NRCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRCalendarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2743DA235CF166393C6C208D /* Pods-NRCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCalendarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRCalendarView_Tests/Pods-NRCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		358BDC9477B2089DD1D10832 /* NRCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NRCalendarView.podspec; path = ../NRCalendarView.podspec; sourceTree = "<group>"; };
+		358BDC9477B2089DD1D10832 /* NRCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NRCalendarView.podspec; path = ../NRCalendarView.podspec; sourceTree = "<group>"; };
 		37D8DB46CE4376B5864BC8ED /* Pods-NRCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCalendarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRCalendarView_Example/Pods-NRCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B2F66FB1151606082B2D46E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B2F66FB1151606082B2D46E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NRCalendarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRCalendarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9637A70F824FC7D82DF2D3D5 /* Pods-NRCalendarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCalendarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRCalendarView_Tests/Pods-NRCalendarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B032AF9947F00FC7325BD6D /* Pods-NRCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRCalendarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRCalendarView_Example/Pods-NRCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9B6F6790212F96163A562C0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B6F6790212F96163A562C0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C1753F6270982B80BE27F8CE /* Pods_NRCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRCalendarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "聂锐";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = W84M5SU87C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,12 +516,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W84M5SU87C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NRCalendarView/NRCalendarView-Prefix.pch";
 				INFOPLIST_FILE = "NRCalendarView/NRCalendarView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,12 +534,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W84M5SU87C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NRCalendarView/NRCalendarView-Prefix.pch";
 				INFOPLIST_FILE = "NRCalendarView/NRCalendarView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

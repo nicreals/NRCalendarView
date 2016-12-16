@@ -1,0 +1,35 @@
+{
+  "name": "NRCalendarView",
+  "version": "0.1.0",
+  "summary": "A short description of NRCalendarView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NRCalendarView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "聂锐": "nic.reals@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NRCalendarView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "NRCalendarView/Classes/**/*",
+  "resources": "NRCalendarView/Assets/*.png",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "GreedCategory": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

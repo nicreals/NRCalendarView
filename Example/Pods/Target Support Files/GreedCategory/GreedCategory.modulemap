@@ -1,0 +1,6 @@
+framework module GreedCategory {
+  umbrella header "GreedCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

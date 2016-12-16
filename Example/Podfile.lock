@@ -1,0 +1,22 @@
+PODS:
+  - GreedCategory (0.0.5)
+  - Masonry (1.0.2)
+  - NRCalendarView (0.1.0):
+    - GreedCategory
+    - Masonry
+
+DEPENDENCIES:
+  - NRCalendarView (from `../`)
+
+EXTERNAL SOURCES:
+  NRCalendarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GreedCategory: a6f43d53035b373402ad040ef6889bb61fe8725e
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  NRCalendarView: c2cd3896d39d30e0813f00472dff726855b88c7c
+
+PODFILE CHECKSUM: cfbb05eba130075fa2690096acbaa12e4a70217f
+
+COCOAPODS: 1.1.1
