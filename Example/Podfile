@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NRCalendarView_Example' do
+  pod 'NRCalendarView', :path => '../'
+
+  target 'NRCalendarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
