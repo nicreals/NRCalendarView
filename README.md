@@ -29,9 +29,11 @@ A really handful calendar picker that you will love to use.
 
 ## Screenshots
 
-![snap1](./snap1.png)
-![snap2](./snap2.png)
-![snap3](./snap3.png)
+![snap1](./snap1.PNG)
+
+![snap2](./snap2.PNG)
+
+![snap3](./snap3.PNG)
 
 ## Author
 
